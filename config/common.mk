@@ -199,6 +199,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     rsync
 
+#NovaLauncher
+PRODUCT_COPY_FILES += \
+   vendor/exodus/prebuilt/common/NovaLauncher.apk:system/priv-app/NovaLauncher/NovaLauncher.apk
+
 # Stagefright FFMPEG plugin
 PRODUCT_PACKAGES += \
     libffmpeg_extractor \
